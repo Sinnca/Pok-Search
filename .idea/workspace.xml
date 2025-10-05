@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf27e71-7ba5-4e84-bfe2-c793d7021962" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/find.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/find.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" />
+    <list default="true" id="faf27e71-7ba5-4e84-bfe2-c793d7021962" name="Changes" comment="HEllo">
+      <change afterPath="$PROJECT_DIR$/backend/auth/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/cards/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/config/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/config/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/db/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/favorites/save.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/history/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/find.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pokemon/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +23,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="PHP File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,24 +58,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.search.html.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.search.html.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "web.server",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pokemon_search\backend\pokemon" />
+      <recent name="C:\xampp\htdocs\pokemon_search\public" />
+      <recent name="C:\xampp\htdocs\pokemon_search\js" />
       <recent name="C:\xampp\htdocs\pokemon_search" />
       <recent name="C:\xampp\htdocs\pokemon_search\assets\js" />
     </key>
@@ -80,11 +106,43 @@
       <option name="presentableId" value="Default" />
       <updated>1759582009578</updated>
       <workItem from="1759582010750" duration="1171000" />
-      <workItem from="1759629010483" duration="1196000" />
+      <workItem from="1759629010483" duration="2270000" />
+      <workItem from="1759631336457" duration="521000" />
+      <workItem from="1759631876667" duration="1348000" />
     </task>
+    <task id="LOCAL-00001" summary="HEllo">
+      <option name="closed" value="true" />
+      <created>1759630429395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759630429395</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HEllo">
+      <option name="closed" value="true" />
+      <created>1759630449798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759630449798</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HEllo" />
+    <option name="LAST_COMMIT_MESSAGE" value="HEllo" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="pokemon_search" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file://C:/xampp/htdocs/pokemon_search}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
